@@ -1,6 +1,6 @@
 ## 
 
-with open ("z:/Logan's Shit/Code/Advent of Code 2022/Advent-Of-Code-2022/Day 1/input.txt",'r') as f:
+with open ("Advent-Of-Code-2022\Day 1\input.txt",'r') as f:
     lines = f.readlines()
 
 print(lines)
