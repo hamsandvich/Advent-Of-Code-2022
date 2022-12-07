@@ -47,8 +47,8 @@ for i in range(len(lines)):
     stacknumber = num[1]
     stacknumber2 = num[2]
     for i in range(numberOfCrates):
-        assembledStack[stacknumber2].append(assembledStack[stacknumber].pop())
-
+        assembledStack[stacknumber2].append(assembledStack[stacknumber].pop(-numberOfCrates))
+        numberOfCrates -= 1
 
 for i in range(1,10):
     print(assembledStack[i].pop())
